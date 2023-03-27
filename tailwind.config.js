@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode:"class",
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
@@ -18,5 +19,5 @@ module.exports = {
       }
     }
   },
-  plugins: [require("./plugins/openVariant"),  require("./plugins/animationDelay")],
+  plugins: [require("./plugins/openVariant"),  require("./plugins/animationDelay"), require("./plugins/tableCaption")],
 };
