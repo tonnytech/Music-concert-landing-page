@@ -702,10 +702,6 @@ h6{
   top: 100%;
 }
 
-.left-1{
-  left: 0.25rem;
-}
-
 .left-1\/2{
   left: 50%;
 }
@@ -769,14 +765,6 @@ h6{
   margin-top: 1.25rem;
 }
 
-.ml-\[\]{
-  margin-left: ;
-}
-
-.ml-\[-8pz\]{
-  margin-left: -8pz;
-}
-
 .ml-\[-8px\]{
   margin-left: -8px;
 }
@@ -835,14 +823,6 @@ h6{
 
 .h-80{
   height: 20rem;
-}
-
-.h-\[\]{
-  height: ;
-}
-
-.h-\[250px\]{
-  height: 250px;
 }
 
 .min-h-\[400px\]{
@@ -1027,10 +1007,6 @@ h6{
   border-radius: 0.5rem;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
 .rounded-l-lg{
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -1039,11 +1015,6 @@ h6{
 .rounded-b-md{
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
-}
-
-.rounded-l{
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
 }
 
 .border-4{
@@ -1183,11 +1154,6 @@ h6{
   padding-right: 1rem;
 }
 
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1196,6 +1162,15 @@ h6{
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
 }
 
 .pr-4{
@@ -1293,10 +1268,6 @@ h6{
 
 .opacity-100{
   opacity: 1;
-}
-
-.opacity-5{
-  opacity: 0.05;
 }
 
 .opacity-75{
